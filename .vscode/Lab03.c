@@ -14,7 +14,7 @@ int main()
   scanf("%d %f", &optionNumber, &valueInputted);                                                                                                                    
                                                                                                                                                                     
   valueCalculated =  (optionNumber % 2) * ((2 * valueInputted) / (valueInputted - 2)) + (optionNumber / 2) * ((2 * pow(valueInputted, 2)) / (pow(valueInputted, 2) -
- (2 * valueInputted))); // This code mathematically determines whether to calculate the height or the radius by using modulus to determine if option 1 was chosen an
+ (2 * valueInputted))); // This code mathematically deterimines whether to calculate the height or the radius by using modulus to determine if option 1 was chosen an
 d division to choose if option 2 was chosen. 1 % 2 would return 1, while 1 / 2 would return 0, making sure that the radius is calculated, and vice versa if optionNu
 mber == 2; The height and radius are calculated by setting the volume and surface areas of the cylinder equal to each other and solving for each variable.          
                                                                                                                                                                     
