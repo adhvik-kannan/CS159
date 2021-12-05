@@ -190,4 +190,5 @@ void printResults(double length1, double tension1, double length2, double tensio
   printf("\nLength of cable #1: %.2lf [m]", length1);                                                                                                               
   printf("\nTension of cable #1: %.2lf [N]\n", tension1);                                                                                                           
   printf("\nLength of cable #2: %.2lf [m]", length2);                                                                                                               
-  printf("\nTension of cable #2: %.2lf [N]\n", tension2);                                                                                                           
+  printf("\nTension of cable #2: %.2lf [N]\n", tension2);      
+}                                                                                                     
